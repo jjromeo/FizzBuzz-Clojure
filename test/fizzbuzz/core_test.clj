@@ -61,3 +61,9 @@
 		(is (= "fizzbuzz" (fizzbuzz 15)))
 	)
 )
+
+(deftest fizzbuzzing
+	(testing "it returns 1 for 1"
+		(is (= 1 (fizzbuzz 1)))
+	)
+)
