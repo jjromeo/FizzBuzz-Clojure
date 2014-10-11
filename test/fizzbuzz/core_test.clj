@@ -31,3 +31,33 @@
 		(is (= false (divisible-by-five? 1)))
 	)
 )
+
+(deftest is-divisible-by-fifteen
+	(testing "it returns true for 15"
+		(is (= true (divisible-by-fifteen? 15)))
+	)
+)
+
+(deftest is-divisible-by-fifteen
+	(testing "it returns false for 1"
+		(is (= false (divisible-by-fifteen? 1)))
+	)
+)
+
+(deftest fizzbuzzing
+	(testing "it returns 'fizz' for 3"
+		(is (= "fizz" (fizzbuzz 3)))
+	)
+)
+
+(deftest fizzbuzzing
+	(testing "it returns 'buzz' for 5"
+		(is (= "buzz" (fizzbuzz 5)))
+	)
+)
+
+(deftest fizzbuzzing
+	(testing "it returns 'fizzbuzz' for 15"
+		(is (= "fizzbuzz" (fizzbuzz 15)))
+	)
+)
