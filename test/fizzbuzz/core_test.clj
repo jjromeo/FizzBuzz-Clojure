@@ -19,3 +19,15 @@
 
 	)
 )
+
+(deftest is-divisible-by-five
+	(testing "it returns true for 5"
+		(is (= true (divisible-by-five? 5)))
+	)
+)
+
+(deftest is-divisible-by-five
+	(testing "it returns false for 1"
+		(is (= false (divisible-by-five? 1)))
+	)
+)
